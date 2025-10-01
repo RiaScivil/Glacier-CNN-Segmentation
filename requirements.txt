@@ -1,0 +1,8 @@
+roboflow
+tensorflow
+earthengine-api
+fastapi
+uvicorn
+numpy
+matplotlib
+scikit-learn
