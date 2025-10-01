@@ -1,0 +1,28 @@
+Glacier-CNN-Segmentation/
+│
+├── data/
+│   ├── README.md           # Instructions on dataset sources & format
+│   ├── glacier-images-data-set/         # Placeholder/links for your raw image data
+│   ├── GLA/
+│   └── CanadaGlacier/
+│
+├── scripts/
+│   ├── download_roboflow.py            # Roboflow download script
+│   ├── gee_data_enhancer.py            # GEE integration and data processing
+│   ├── train_cnn.py                    # Model training & evaluation script
+│   ├── deploy_api.py                   # FastAPI deployment code
+│   └── monitor.py                      # Automated monitoring system
+│
+├── models/
+│   ├── glacier_attention_unet.py   # Model architecture script
+│   └── best_glacier_model.h5       # Trained model (or link to model weights)
+│
+├── api/
+│   ├── api_app.py                  # FastAPI or Flask web server code
+├── requirements.txt                # All Python package dependencies
+├── environment.yml                 # (For conda-based reproducibility, optional)
+├── Dockerfile                      # For containerized deployment
+├── README.md                       # Project overview, setup instructions, usage
+├── LICENSE                         # Recommended: CC BY 4.0 or MIT (choose one)
+├── .gitignore                      # Ignore data/weights/logfiles
+└── glacier-monitoring-report.pdf   # (Optional: Summary output/results)
